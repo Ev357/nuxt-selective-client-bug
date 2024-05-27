@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  catName?: string;
+  catName: string;
 }>();
 
 const revealed = ref(false);
