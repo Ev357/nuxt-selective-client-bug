@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply fixed inset-0 bg-black justify-center items-center flex text-white;
+  }
+}
